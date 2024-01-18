@@ -1,0 +1,15 @@
+@import "./styles/location.css";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    margin-right: 3vw;
+}
