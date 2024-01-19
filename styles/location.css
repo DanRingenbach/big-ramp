@@ -5,3 +5,12 @@
     flex-direction: column;
 }
 
+.google-map iframe, .google-map p {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .google-map iframe, .google-map p {
+        width: 80%;
+    }
+}
