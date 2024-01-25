@@ -27,6 +27,16 @@
     box-shadow: 2px 2px 0px 0px;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
 .hours {
     display: flex;
     justify-content: center;
