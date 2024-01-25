@@ -3,9 +3,30 @@
     padding: 5%;
 }
 
+.exhibitions h1 {
+    text-decoration: underline;
+}
+
+.exhibitions a {
+    border: 2px solid red;
+    padding: 5px;
+    box-shadow: 2px 2px 0px 0px;
+}
+
+.exhibitions a:hover {
+    cursor: pointer;
+}
+
+.exhibitions .exhibition-card {
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px 0px 0px;;
+}
+
 .exhibitions .gallery {
     display: flex;
     overflow: scroll;
+    
 }
 
 .overlay {

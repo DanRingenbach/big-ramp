@@ -5,6 +5,10 @@
     flex-direction: column;
 }
 
+.google-map h1 {
+    text-decoration: underline;
+}
+
 .google-map iframe, .google-map p {
     width: 50%;
 }
