@@ -18,13 +18,35 @@
 .homepage {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    background: url(./assets/big-ramp3.png);
+    height: 99vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;;
+}
+
+.homepage-header {
+    padding:5%;
+}
+
+.homepage h1 {
+    color: white;
 }
 
 .homepage a {
+    background-color: white;
     border: 2px solid red;
     padding: 5px;
     box-shadow: 2px 2px 0px 0px;
+}
+
+.mission {
+    color: white;
+    width: 35%;
+    padding: 5%;
+    background: #000000ad;
 }
 
 .hero {
@@ -36,6 +58,23 @@
 .hero img {
     max-width: 100%;
 }
+
+.recent-ex {
+    padding-left:5%;
+    padding-top:5%
+}
+
+.gallery img {
+    width: 40%;
+    padding: 5%;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+}
+
 
 .hours {
     display: flex;
@@ -58,4 +97,14 @@
     border: 2px solid red;
     padding: 5px;
     box-shadow: 2px 2px 0px 0px;
+}
+
+@media only screen and (max-width: 1200px){
+    .homepage {
+        flex-direction: column;
+    }
+
+    .mission {
+        width: 85%;
+    }
 }

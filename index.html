@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
     <title>Big Ramp</title>
 </head>
 
@@ -14,19 +16,48 @@
         <img src="assets/logo.jpg" alt="logo" style="width:100px;" />
         <nav class="nav">
             <!-- <a>About</a> -->
-            <!-- <a>Contact</a> -->
+            <a>Contact</a>
             <a href="pages/exhibitions.html">Exhibitions</a>
             <a href="pages/location.html">Location</a>
         </nav>
     </div>
-    
+
     <div class="homepage">
-        <h1>Big Ramp Gallery</h1>
-        <a href="https://big-ramp.beehiiv.com/subscribe" target="_blank">*~* Signup for the Newsletter *~*</a>
+        <div class="homepage-header">
+            <h1>Big Ramp Gallery</h1>
+            <a href="https://big-ramp.beehiiv.com/subscribe" target="_blank">*~* Signup for the Newsletter *~*</a>
+        </div>
+        <div class="mission">
+            <p >
+                At Big Ramp, we transcend conventional art spaces, emerging as an underground gallery deeply
+                committed to spotlighting the extraordinary talents of local artists. Our mission is explicit: to serve
+                as a dynamic platform for emerging creatives and actively engage with the community. Situated in a
+                vibrant locale, our gallery embraces diverse perspectives, fostering a collaborative milieu where art
+                serves as a catalyst for profound connections and positive metamorphosis. Join Big Ramp in
+                commemorating the potency of artistic expression and community involvement, as we endeavor to construct
+                a space that transcends borders and amplifies the voices of local artists.
+            </p>
+        </div>
     </div>
 
+    <div class="recent-ex">
+        <h1>Most Recent Exhibition</h1>
+        <h2>Death Card</h2>
+        <h3>1/27/2024 - 3/10/2024</h3>
+        <a >See All Exhibitions</a>
+    </div>
     <div class="hero">
-        <img src="assets/big-ramp.jpg">
+        <div class="gallery">
+            <img class="gallery-img" src="./assets/exhibition-assets/death-card/death-card.jpg">
+            <img class="gallery-img" src="./assets/exhibition-assets/death-card/death-card4.jpg">
+            <img class="gallery-img" src="./assets/exhibition-assets/death-card/death-card5.jpg">
+            <img class="gallery-img" src="./assets/exhibition-assets/death-card/death-card6.jpg">
+
+
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <img class="overlayImg" id="overlayImg" src="#" alt="Overlay Image">
     </div>
 
 
@@ -37,8 +68,8 @@
             <li>Tues Closed</li>
             <li>Wed Closed</li>
             <li>Thu Closed</li>
-            <li>Fri 09:00 AM - 05:00 PM</li>
-            <li>Sat By Appointment</li>
+            <li>Fri By Appointment</li>
+            <li>Sat 2PM - 4PM</li>
             <li>Sun Closed</li>
         </ul>
     </div>
@@ -48,6 +79,8 @@
         <a href="mailto:bigrampphilly@gmail.com" target="_blank">Email</a>
 
     </div>
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
